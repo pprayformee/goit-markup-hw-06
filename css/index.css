@@ -579,6 +579,83 @@ p {
     background-color: var(--acent-color);
 }
 
+.container-form {
+    display: block;
+}
+
+.strong-text {
+    display: block;
+    font-family: var(--main-font);
+    font-weight: 700;
+    font-size: var(--text-size);
+    line-height: 1.14;
+    color: rgba(255, 255, 255, 1);
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    letter-spacing: 0.03em;
+}
+
+.form-footer {
+    display: flex;
+}
+
+.label-footer {
+    display: inline-block;
+    margin-right: 12px;
+}
+
+.input-footer {
+    width: 385px;
+    height: 50px;
+    background-color: var(--header-footer-color);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    border-radius: 4px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    padding: 15px 16px;
+    transition: border-color var(--animation);
+}
+
+.input-footer:hover,
+.input-footer:focus {
+    border-color: var(--acent-color);
+}
+
+input[placeholder] {
+    font-family: var(--main-font);
+    font-size: 16px;
+    line-height: 1.25;
+    color: rgba(255, 255, 255, 0.6);
+    letter-spacing: 0.03em;
+}
+
+.button-footer {
+    display: flex;
+    align-items: center;
+    padding: 10px 28px;
+    border: none;
+    border-radius: 4px;
+    background-color: var(--acent-color);
+    color: rgba(255, 255, 255, 1);
+    font-family: var(--main-font);
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.87;
+    letter-spacing: 0.06em;
+    transition: box-shadow var(--animation);
+}
+
+.button-footer:hover,
+.button-footer:focus {
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+}
+
+.icon-button-footer {
+    margin-left: 10px;
+    fill: var(--white-color);
+}
+
+/* Modal Window*/
+
 .backdrop {
     position: fixed;
     top: 0;
