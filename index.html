@@ -387,6 +387,50 @@
             <use href="./img/svg/icons.svg#Vector"></use>
           </svg>
         </button>
+
+        <form class="register-form" name="register-form">
+          <strong class="register-form-title">Залиште свої дані, ми вам передзвонимо</strong>
+          <div class="register-form-group" role="group">
+
+            <label class="modal-label">
+              <span class="span-modal">Ім'я</span>
+              <input class="input-modal" type="text" name="name">
+              <svg class="icon-modal" width="18" height="18">
+                <use href="./img/svg/icons.svg#person"></use>
+              </svg>
+            </label>
+
+            <label class="modal-label">
+              <span class="span-modal">Телефон</span>
+              <input class="input-modal" type="text" name="phone">
+              <svg class="icon-modal" width="18" height="18">
+                <use href="./img/svg/icons.svg#modal-phone"></use>
+              </svg>
+            </label>
+
+            <label class="modal-label">
+              <span class="span-modal">Пошта</span>
+              <input class="input-modal" type="email" name="mail">
+              <svg class="icon-modal" width="18" height="18">
+                <use href="./img/svg/icons.svg#modal-mail"></use>
+              </svg>
+            </label>
+
+            <label class="modal-label-textarea">
+              <span class="span-modal">Коментар</span>
+              <textarea class="textarea-modal" name="text" rows="5" placeholder="Введіть текст"></textarea>
+            </label>
+          </div>
+
+          <label class="modal-label-chekcbox">
+            <input class="input-checkbox visually-hiden" type="checkbox" name="icon">
+            <span class="icon"></span>
+            <span class="span-modal-checkbox">Погоджуюся з розсилкою та приймаю <a href="" class="link-modal">Умови договору</a></span>
+          </label>
+
+          <button class="button-modal" type="submit">Відправити</button>
+          
+        </form>
       </div>
     </div>
     <script src="./js/modal.js"></script>
