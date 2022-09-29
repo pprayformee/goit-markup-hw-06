@@ -79,6 +79,9 @@
     <symbol id="person" viewBox="0 0 32 32">
       <path d="M16 16c4.42 0 8-3.58 8-8s-3.58-8-8-8-8 3.58-8 8 3.58 8 8 8zm0 4c-5.34 0-16 2.68-16 8v2c0 1.1.9 2 2 2h28c1.1 0 2-.9 2-2v-2c0-5.32-10.66-8-16-8z"/>
     </symbol>
+    <symbol id="check" viewBox="0 0 42 32">
+      <path fill="#fff" style="fill:var(--color1, #fff);stroke:var(--color1, #fff)" stroke="#fff" stroke-width=".64" d="m6.263 15.205-.22-.21-3.307 3.132 11.651 11.114L38.864 5.89l-3.285-3.134-21.192 20.197-8.124-7.75z"/>
+    </symbol>
     <!--Footer-->
     <symbol id="send" viewBox="0 0 32 32">
       <path d="M32 0 0 18l10.227 3.788L26 7 14.002 23.186l.01.004-.012-.004V32l5.735-6.691L27 28l5-28z"/>

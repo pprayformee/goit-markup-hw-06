@@ -494,8 +494,12 @@ p {
 
 .cont {
     display: flex;
-    gap: 70px;
+    /*gap: 70px;*/
     align-items: baseline;
+}
+
+.container-footer {
+    margin-right: 70px;
 }
 
 .logo-footer {
@@ -542,6 +546,10 @@ p {
 .mailto-tel:hover,
 .mailto-tel:focus {
     color: var(--acent-color);
+}
+
+.container-social-footer {
+    margin-right: auto;
 }
 
 .title-footer {
@@ -680,6 +688,7 @@ input[placeholder] {
     transform: translate(-50%, -50%);
     width: 528px;
     height: 581px;
+    padding: 40px;
     border-radius: 4px;
     box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12),
         0px 1px 1px rgba(0, 0, 0, 0.14),
@@ -719,12 +728,12 @@ input[placeholder] {
     letter-spacing: 0.03em;
     color: rgba(33, 33, 33, 1);
     margin-bottom: 12px;
-    margin-top: 40px;
+    /*margin-top: 40px;*/
 }
 
 .register-form-group {
     margin-bottom: 20px;
-    margin-left: 41px;
+    /*margin-left: 41px;*/
 }
 
 .modal-label {
@@ -766,6 +775,11 @@ input[placeholder] {
     bottom: 11px;
     left: 12px;
     transition: fill var(--animation);
+}
+
+.icon-modal:hover,
+.icon-modal:focus {
+    fill: var(--acent-color);
 }
 
 .input-modal:focus + .icon-modal {
@@ -826,7 +840,7 @@ input[placeholder] {
 .input-checkbox:checked + .icon {
     border-color: var(--acent-color);
     background-color: var(--acent-color);
-    background-image: url(/img/svg/cheked.svg);
+    /*background-image: url(../img/svg/checked.svg);*/
     background-size: contain;
     background-origin: border-box;
 }
@@ -838,6 +852,10 @@ input[placeholder] {
     border: 1px solid rgba(33, 33, 33, 1);
     margin-right: 7px;
     transition: border-color var(--animation);
+}
+
+.check-icon {
+    position: absolute;
 }
 
 .input-checkbox:focus + .icon {

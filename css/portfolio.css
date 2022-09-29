@@ -365,8 +365,12 @@ p {
 
 .cont {
     display: flex;
-    gap: 70px;
+    /*gap: 70px;*/
     align-items: baseline;
+}
+
+.container-footer {
+    margin-right: 70px;
 }
 
 .logo-footer {
@@ -419,7 +423,7 @@ p {
 }
 
 .container-social-footer {
-    padding-top: 12px;
+    margin-right: auto;
 }
 
 .tell {
