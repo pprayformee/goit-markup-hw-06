@@ -837,7 +837,7 @@ input[placeholder] {
 }
 
 
-.input-checkbox:checked + .icon {
+.input-checkbox:checked + .icon-ch {
     border-color: var(--acent-color);
     background-color: var(--acent-color);
     /*background-image: url(../img/svg/checked.svg);*/
@@ -845,7 +845,7 @@ input[placeholder] {
     background-origin: border-box;
 }
 
-.icon {
+.icon-ch {
     display: inline-block;
     width: 16px;
     height: 15px;
